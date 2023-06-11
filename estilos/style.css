@@ -27,7 +27,8 @@ body {
     justify-content: space-between;
     align-items: center;
     height: 180px;
-    padding: 20px;
+    padding: 10px;
+    
 }
 .cabeçalho-titulo {
     font-family: var(--font-padrao);
@@ -71,7 +72,7 @@ body {
 }
 
 .img {
-   max-width: 700px;
+   max-width: 400px;
 }
 
 .figure-smart-img {
@@ -84,6 +85,8 @@ body {
 }
 
 .nav {
+    max-width: 530px;
+    margin: 10px;
     display: flex;
     gap: 24px;
 }
