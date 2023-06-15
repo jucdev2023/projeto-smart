@@ -1,0 +1,57 @@
+@charset "UTF-8";
+/* Todas as demais mídias */ 
+
+/* pesquisar sobre Typical Device breakpoints 
+-------------------------------
+
+pequenas telas: até 600px
+ - celular: de 600px até 768px
+ - desktop: 992px até 1200px
+ - tablet : 769 px até 992px
+ - grandes telas: acima de 1200px
+
+*/
+
+@media screen and (max-width: 600px) {
+
+   
+   .cabeçalho {
+    display: flex;
+    flex-direction: column;
+
+   }
+   .nav {
+
+    min-width: 360px;
+    align-items: center;
+  
+
+   }
+
+   .nav-bar {
+    background-color: none;
+    width: 340px;
+    margin-right: 10px;
+   padding: 0px;
+   }
+
+   .seçao-principal {
+      flex-direction: column;
+      
+   }
+   .seçao-principal-conteudo {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 120px;
+    min-width: 250px;
+    padding: 2px;
+
+   }
+   .seçao-principal-subtitulo {
+    font-size: 1.9rem;
+    text-align: center;
+
+   }
+}
