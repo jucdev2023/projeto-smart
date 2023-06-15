@@ -11,9 +11,15 @@
 }
 
 
-html {
-    height: 100vh;
+html{
+    
     background-color: var(--cor-destaque);
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    
 }
 
 * {
@@ -28,14 +34,16 @@ html {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 100vw;
+    width: 100;
     padding: 10px;
+   
    
     
     
 
 
 }
+
 
 .cabeçalho-titulo {
     font-family: var(--font-padrao);
@@ -86,12 +94,9 @@ html {
 }
 
 .conteudo-principal {
-    background-color: white;
-    height: 100px;
-    box-shadow: inset -4px -7px 47px -27px rgba(0, 0, 0, 0.78);
-
-
-
+   
+    width: 100%;
+    
 }
 
 .seçao-principal {
@@ -101,10 +106,7 @@ html {
     height: 400px;
     background-color: var(--cor-destaque);
 }
-.seçao-principal-conteudo {
-    
-    
-}
+
 .seçao-principal-subtitulo {
     font-size: 3.9rem;
     font-family: var(--font-padrao) ;
@@ -124,16 +126,20 @@ html {
     padding: 20px;
 }
 .figure-smart-img {
-    width: 400px;
+    width: 300px;
 }
 .seçao-secundaria-features {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    height: 100vh;
     background-color: white;
-    width: 100%;
-    height: 900px;
+
+    
+    
+    
+   
    
 }
 .seçao-conteudo-features {
