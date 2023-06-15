@@ -49,9 +49,27 @@ pequenas telas: até 600px
     padding: 2px;
 
    }
+
    .seçao-principal-subtitulo {
     font-size: 1.9rem;
     text-align: center;
 
    }
+   .figure-smart-img {
+      width: 200px;
+   }
+   .seçao-secundaria-features {
+    min-width:200px;
+   }
+   .seçao-conteudo-features {
+      padding: 20px;
+      max-width: 500px;
+     
+   }
+
+   .parent {
+      flex-direction: column;
+     
+   }
+  
 }
